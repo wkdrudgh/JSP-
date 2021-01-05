@@ -3,10 +3,13 @@ JSP를 이용한 게시판 만들기
 목차
 - [프로젝트 소개](#프로젝트-소개)
 - [프로젝트 설계 및 계획](#프로젝트-설계-및-계획)
+- [메인페이지](#메인페이지)
+- [SQL문](#SQL문)
 - [주요 기능 및 설명](#주요-기능-및-설명)
 - [외부 라이브러리](#외부-라이브러리)
 - [마치며](#마치며)
 - [추가](#추가)
+
 
 프로젝트 소개
 ----
@@ -15,16 +18,53 @@ CRUD에 대한 기본개념과 JSP사용방법을 익히기 위해 만든 프로
 
 프로젝트 설계 및 계획
 --------
-이 프로젝트는 Jsp를 기반으로 만들어진 게시판 사이트입니다.<br>
-부트스트랩3를 이용해 전체적인 디자인을 구현했고 톰켓을 사용해 서버를 구축했습니다.<br>
-데이터베이스는 MySql를 사용했습니다.
+- 사용기술 및 IDE
+1. java
+2. 부트스트랩3
+3. MYSQL
+4. 톰켓
+5. Eclipse
+
+- 계획
+1. user정보와 게시판에 필요한 컬럼을 정하기
+2. 어떤 기능을 추가할지 정하기
+3. 디자인 만들기
+4. 기능을 추가해 구현하기
+5. 마무리로 코드를 가독성 좋게 정리하기 
 
 메인페이지
 -----
 ![스크린샷(41)](https://user-images.githubusercontent.com/67408846/103606618-3af94e00-4f5a-11eb-89af-c7e154306a52.png)&nbsp;
-<br/>
-<br/>
-<br/>
+-----
+
+SQL문
+-----
+1. user 테이블 SQL문
+`````mysql
+create table user(
+    userID varchar(20),
+    userPassword varchar(20),
+    userName varchar(20),
+    userGender varchar(20),
+    userEmail varchar(50),
+    primary key (userID)
+);
+`````
+
+2. bbs(게시판) 테이블 SQL문
+-----
+`````mysql
+create table bbs(
+    bbsID int,
+    bbsTitle varchar(50),
+    userID varchar(20),
+    bbsDate datetime,
+    bbsContent varchar(2048),
+    bbsAvailable int,
+    primary key (bbsID)
+);
+`````
+-----
 주요 기능 및 설명
 -----
 ![스크린샷(42)](https://user-images.githubusercontent.com/67408846/103607361-0dad9f80-4f5c-11eb-9767-0cf6a8a4d098.png)&nbsp;
