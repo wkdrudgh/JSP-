@@ -119,7 +119,7 @@ create table bbs(
  2. 본인이 작성하지 않은 글을 수정이 불가능 합니다.
 
 -----
-![스크린샷(46)](https://user-images.githubusercontent.com/67408846/103615640-422a5700-4f6e-11eb-8039-3ceea2a5190d.png)
+![스크린샷(78)](https://user-images.githubusercontent.com/67408846/104793822-5892a700-57e7-11eb-9ce8-45014d08f6ce.png)
 -----
 - 게시판 글삭제
  1. 게시글을 지울 수 있습니다.
