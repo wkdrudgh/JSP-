@@ -90,7 +90,7 @@ create table bbs(
  4. 로그인을 이미 했을 때(강제로 주소를 login폼으로 가서 로그인시 나옴.)
 
 -----
-![스크린샷(43)](https://user-images.githubusercontent.com/67408846/103614599-4bb2bf80-4f6c-11eb-8ad1-c6ed85140442.png)
+![스크린샷(76)](https://user-images.githubusercontent.com/67408846/104793754-28e39f00-57e7-11eb-868b-86e6e377ef92.png)
 -----
 - 게시판 목록페이지
  1. 한 페이지당 8개에 게시글만 보여집니다.
@@ -98,21 +98,21 @@ create table bbs(
  3. 중간에 있는 페이지는 이전 다음 버튼이 존재합니다.
 
 -----
-![스크린샷(44)](https://user-images.githubusercontent.com/67408846/103614331-b0214f00-4f6b-11eb-82a8-273514619cab.png)
+![스크린샷(78)](https://user-images.githubusercontent.com/67408846/104793822-5892a700-57e7-11eb-9ce8-45014d08f6ce.png)
 -----
 - 게시판 글등록
  1. 게시글 제목과 내용을 등록 할 수 있습니다.
  2. 로그인이 되어있지 않으면 게시글을 등록할 수 없고 자동으로 로그인페이지로 이동합니다.
 
 -----
-![스크린샷(45)](https://user-images.githubusercontent.com/67408846/103615017-2c686200-4f6d-11eb-98d2-f0863c728b05.png)
+![스크린샷(77)](https://user-images.githubusercontent.com/67408846/104793809-4a448b00-57e7-11eb-9719-20055e96e31d.png)
 -----
 - 게시판 상세페이지
  1. 게시글에 내용을 볼 수 있습니다.
  2. 목록가기, 수정하기, 삭제하기, 글쓰기 버튼이 있습니다.
 
 -----
-![스크린샷(46)](https://user-images.githubusercontent.com/67408846/103615640-422a5700-4f6e-11eb-8039-3ceea2a5190d.png)
+![스크린샷(78)](https://user-images.githubusercontent.com/67408846/104793822-5892a700-57e7-11eb-9ce8-45014d08f6ce.png)
 -----
 - 게시판 글수정
  1. 게시글 제목과 내용을 수정할 수 있습니다.
