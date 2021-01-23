@@ -42,7 +42,7 @@ CRUD에 대한 기본개념과 JSP사용방법을 익히기 위해 만든 프로
 -------
 
 SQL문
------
+--------
 1. user 테이블 SQL문
 `````mysql
 create table user(
@@ -56,7 +56,7 @@ create table user(
 `````
 
 2. bbs(게시판) 테이블 SQL문
------
+-------
 `````mysql
 create table bbs(
     bbsID int,
